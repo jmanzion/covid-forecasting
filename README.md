@@ -1,5 +1,7 @@
 **COVID FORECASTING**
 
+co-authors: Linh Dinh, Abrar Manzar, Erik Magnusson, Vandana Rana, and Naveen Vipin
+
 **DESCRIPTION**
 
 Infectious Disease Forecasting is a web application designed to allow users to generate case count forecasts using a variety of provided mathematical models. Users have the option to forecast infections using 1) provided country-based COVID-19 data (pre-populated from John Hopkins database) or 2) their own uploaded data. This data can be uploaded by the end user in .csv, .tsv or .txt format. The data should contain only 2 columns: date and new case count. Based on the model selected, the application projects the trend of the disease. Additionally, the user has the ability to fine tune model parameters like intrinsic growth rate, deceleration of growth, maximum cumulative case incidence, and a scaling parameter based on the chosen model. For convenience, default values are populated for all model parameters which can be adjusted by the end user if desired.
